@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    font-size: 62.5%;
+    --pramary-:#00010D;
+    --secundary-:#3B403F;
+    --text-:#B3DBD3;
+    --text-2-:#FF9F84;
+}
+body{
+    height: 100vh;
+    background-color: var(--pramary-);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.login{
+    background-color: hsla(168, 4%, 24%, 0.74);
+    color: var(--text-);
+    width: 37.3rem;
+    height: 37.3rem;
+    border-radius: 2.0rem;
+    margin-top: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+.logo{
+    width: 21.9rem;
+    height: 21.9rem;
+    margin-top: 2.1rem;
+}
+.h2{
+    margin-top: 4.6rem;
+    font-size: 3.2rem;
+}
+label{
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+label,input{
+    width: 85%;
+}
+input{
+    border: none;
+    border-bottom: .1rem solid var(--text-);
+    font-size: 1.6rem;
+    background-color: #00010d00;
+}
+.btn{
+    width: 12.5rem;
+    height: 3.4rem;
+    margin-top: 5.4rem ;
+    background-color: var(--pramary-);
+    color: var(--text-);
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+}
+.perfil{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.player{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 3px;
+    border: 2px solid blue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.name{
+    color: rgb(0, 0, 0);
+    margin: 3px;
+    font-size: medium;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.start{
+    color: blue;
+    background-color: #00010D;
+    padding: 3px;
+    border: 2px solid wheat;
+    font-size: 25px;
+}
+.two{
+    background-image: url(../img/Night\ lake.jpg);
+    background-image: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    
+}
+h3{
+    margin-bottom: 2.3rem;
+}
+.vicio{
+    border-left: 1px solid var(--text-) ;
+    padding-left: 5.1rem;
+}
+.red{
+    color: #FF9F84;
+}
+.metas-vicio{
+    margin-top: 3.4rem;
+    width: 30.4rem;
+    display: flex;
+    color: var(--text-);
+    justify-content: space-between;
+    font-size: 2.0rem;
+}
+.text{
+    margin-bottom: 4px;
+    padding: 3px;
+    
+    
+}
+.start-2{
+    color: rgb(255, 0, 0);
+    background-color: #00010D;
+    padding: 3px;
+    border: 2px solid wheat;
+    font-size: 25px;
+}
+.player-2{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 3px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.one{
+    background-image: url(../img/Ladda\ ner\ solnedgång\ sjö\ landskap\ illustration\ gratis.jpg);
+    background-image: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 54px;
+    width: 34.1rem;
+
+}
+.form{
+    display: flex;
+    gap: 1rem;
+}
+.tilte{
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--text-);
+}
+.inpt{
+    background-color: var(--text-);
+    width: 28.016rem;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+
+}
+.inpt:focus{
+    background-color: rgb(214, 214, 214);
+}
+.btnt{
+    outline: none;
+    border: none;
+    background-color: var(--text-);
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 50%;
+    color: black;
+    padding: 1rem 1.5rem;
+    transition: .2s;
+    
+}
+.btnt:hover{
+    transform: scale(1.2);
+    background-color: #a34513;
+}
+.btnr:focus{
+    transform: scale(0.9) translateY(10px);
+}
+.listadetarefas{
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+ul li input[type="checkbox"]{
+    accent-color: var(--colormedium-);
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+ul li label{
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: 300;
+}
+ul li button{
+    cursor: pointer;
+    background-color: none;
+    color: #7f7e7e;
+    font-size: 2rem;
+    transition: all .3s;
+}
+ul li button:hover{
+    color: var(--colormedium-);
+}
+ul li{
+    margin-bottom: 1rem;
+}
+.listadetarefas li{
+    display: flex;
+    
+
+}
+.risco{
+    text-decoration: line-through;
+    color: #707070;
+
+}
+.icon-cancel-circle{
+    pointer-events: none;
+}
+.pare{color: red;
+background-color: white;
+font-size: larger;
+border: 2px solid red;
+
+}
