@@ -2,7 +2,6 @@ const input = document.querySelector(".inpt");
 const form = document.querySelector('.form')
 const btn = document.querySelector('.btnt');
 const listaTarefas = document.querySelector(".listadetarefas");
-
 function criali(){
     const li = document.createElement('li')
     li.setAttribute('class','flex')
